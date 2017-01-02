@@ -1,10 +1,6 @@
-# xiya_admin
+# vue+webpack的前端开发环境
 
-> 洽客商户管理后台
-
-### 与稀雅项目的不同：
-1. components目录下面，不区分topbar,sidebar,footer,container等，统一归纳在一个wrap.vue,因为是一个系统，不存在各个频道不一样的情况，因此不需要分开配置。
-2. 基于以上改动，频道跟目录下的root.vue可不配置了，直接在入口js下面引入wrap，配置`render: h => h(Wrap)`即可。
+> 一套非常好用的前端开发环境
 
 ## Build Setup
 
